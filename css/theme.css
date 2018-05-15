@@ -10461,8 +10461,61 @@ a.skip-link {
 .gallery-caption {
   display: block; }
 
-body {
-  color: red; }
+h3 {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 4px solid #20a2ce; }
+
+/* JUMBOTRON */
+.jumbotron {
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(25%, #2cb2d9), color-stop(75%, #34c587));
+  background: linear-gradient(to bottom right, #2cb2d9 25%, #34c587 75%);
+  background-size: cover;
+  background-position: center;
+  border: 0;
+  margin-bottom: 0; }
+
+.entry-title {
+  text-align: center;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 40px;
+  color: #fff; }
+
+.entry-title h3 {
+  font-size: 2rem;
+  line-height: 5rem;
+  font-weight: bold; }
+
+p.lead {
+  font-size: 1.7rem;
+  line-height: 1.7rem; }
+
+.bio img {
+  max-width: 100%;
+  border: 6px solid #f9f6e6;
+  width: 250px;
+  border-radius: 50%; }
+
+/* SOCIAL */
+.navbar {
+  border-top: 2px solid white;
+  background-color: #f9f6e6;
+  margin-bottom: 50px; }
+
+.navbar ul {
+  padding: 1em;
+  margin: 0;
+  text-align: center; }
+
+.navbar li {
+  display: inline;
+  margin: 0 1.6em; }
+
+.navbar a {
+  color: #117390;
+  text-decoration: none; }
 
 /*
 * Use existing Bootstrap 4 classes and
