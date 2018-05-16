@@ -69,3 +69,23 @@ require get_template_directory() . '/inc/woocommerce.php';
  * Load Editor functions.
  */
 require get_template_directory() . '/inc/editor.php';
+
+/**
+ * Google Fonts
+ */
+
+function wpb_add_google_fonts() {
+ 
+    wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway:400,800', false ); 
+    }
+     
+    add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
+/**
+ * Secondary Menu
+ */
+
+function register_secondary_menu() {
+    register_nav_menu('secondary-menu',__( 'Secondary Menu' ));
+    }
+    add_action( 'init', 'register_secondary_menu' );

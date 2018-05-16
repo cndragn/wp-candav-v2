@@ -82,12 +82,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<?php wp_nav_menu(
 					array(
-						'theme_location'  => 'primary',
+						'theme_location'  => 'secondary-menu',
 						'container_class' => 'collapse navbar-collapse',
 						'container_id'    => 'navbarNavDropdown',
 						'menu_class'      => 'navbar-nav',
 						'fallback_cb'     => '',
-						'menu_id'         => 'main-menu',
+						'menu_id'         => 'second-menu',
 						'walker'          => new understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>

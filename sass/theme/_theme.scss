@@ -6,6 +6,10 @@ h3 {
     border-bottom: 4px solid #20a2ce;
   }
 
+  a {
+  text-decoration: none;
+}
+
 /* JUMBOTRON */
 .jumbotron {
     background: linear-gradient(to bottom right, #2cb2d9 25%, #34c587 75%);
@@ -44,7 +48,8 @@ h3 {
 .navbar {
   border-top: 2px solid white;
   background-color: #f9f6e6;
-  margin-bottom: 50px;
+  margin-bottom: 50px; 
+  padding: 0;
 }
 .navbar ul {
   padding: 1em;
@@ -55,7 +60,10 @@ h3 {
   display: inline;
   margin: 0 1.6em;
 }
-.navbar a {
-  color: #117390;
-  text-decoration: none;
+.nav-link {
+  padding: 0;
+}
+
+div#navbarNavDropdown {
+  justify-content: space-around;
 }
