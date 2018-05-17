@@ -10,6 +10,10 @@ h3 {
   text-decoration: none;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 /* JUMBOTRON */
 .jumbotron {
     background: linear-gradient(to bottom right, #2cb2d9 25%, #34c587 75%);
@@ -66,4 +70,88 @@ h3 {
 
 div#navbarNavDropdown {
   justify-content: space-around;
+}
+
+/* CARDS */
+.card {
+  background-color: transparent;
+  border: 0;
+}
+h3 {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 4px solid #20a2ce;
+}
+.card-body a {
+  text-decoration: none;
+  margin-left: 8px;
+}
+.container p {
+  color: #fff;
+}
+.container a, .container a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+.container a:hover {
+  color: #ddebef;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 0 1.25rem;
+}
+
+.projects img {
+  max-width: 100%;
+  border: 8px solid #f9f6e6;
+  /* margin-bottom: 2rem; */
+}
+
+ /* PORTFOLIO */
+
+ .pg {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  /* margin: 10px 1%; */
+  /* min-width: 230px;
+  max-width: 315px; */
+  max-width: 100%;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+.pg * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.pg img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.pg h2,
+.pg h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.pg a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+figcaption .fab {
+  display: none;
 }
