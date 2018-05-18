@@ -31,6 +31,10 @@ h3 {
     color: #fff;
   }
 
+  .bio {
+    align-items: center;
+  }
+
   .bio img {
     width: 180px;
     max-width: 100%;
@@ -43,7 +47,7 @@ h3 {
     line-height: 3rem;
   }
 
-  .bio p.lead {
+p.lead {
     font-size: 1.3rem;
     line-height: 1.7rem;
   }
@@ -158,6 +162,33 @@ figcaption .fab {
 //   }
 
 // }
+
+ /* FOOTER */
+
+#wrapper-footer {
+  background-color: #0da2ce;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+}
+.site-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  margin:0;
+}
+footer img {
+  max-height: 30px;
+  width: auto;
+  margin-right: 7px;
+}
+footer .brand-name {
+  font-family: 'Chopin',Helvetica,Arial,sans-serif;
+  color: #ffffff;
+  padding: 0;
+}
 
 
 @media screen and (min-width: 769px){
