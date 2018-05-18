@@ -49,13 +49,22 @@ h3 {
 
 
   /* SOCIAL */
+.navbar {
+  border-top: 2px solid white;
+  background-color: #f9f6e6;
+  margin-bottom: 50px; 
+}
+div#navbarNavDropdown {
+  width: 100%;
+}
+.navbar-nav {
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-// .navbar {
-//   border-top: 2px solid white;
-//   background-color: #f9f6e6;
-//   margin-bottom: 50px; 
-//   padding: 0;
-// }
+.navbar li {
+  margin: 0 0.7em;
+}
 // .navbar ul {
 //   padding: 1em;
 //   margin: 0;
@@ -69,9 +78,6 @@ h3 {
 //   padding: 0;
 // }
 
-// div#navbarNavDropdown {
-//   justify-content: space-around;
-// }
 
 /* CARDS */
 .card {
@@ -174,9 +180,6 @@ figcaption .fab {
 
 // }
 // @media screen and (max-width: 767px){
-//   .navbar-nav {
-    
-//   }
 //   .navbar li {
 //     margin: 0;
 //     flex: 0 0 50%;
