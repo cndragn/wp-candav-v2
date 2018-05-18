@@ -10483,50 +10483,26 @@ a {
 
 .entry-title {
   text-align: center;
-  padding: 20px;
-  width: 70%;
+  width: 100%;
+  padding: 15px 0 0;
   margin: 0 auto;
-  font-size: 40px;
   color: #fff; }
 
-.entry-title h3 {
-  font-size: 2rem;
-  line-height: 5rem;
-  font-weight: bold; }
-
-p.lead {
-  font-size: 1.7rem;
-  line-height: 1.7rem; }
-
 .bio img {
+  width: 180px;
   max-width: 100%;
   border: 6px solid #f9f6e6;
-  width: 250px;
   border-radius: 50%; }
 
+.bio h3 {
+  font-size: 1.4rem;
+  line-height: 3rem; }
+
+.bio p.lead {
+  font-size: 1.3rem;
+  line-height: 1.7rem; }
+
 /* SOCIAL */
-.navbar {
-  border-top: 2px solid white;
-  background-color: #f9f6e6;
-  margin-bottom: 50px;
-  padding: 0; }
-
-.navbar ul {
-  padding: 1em;
-  margin: 0;
-  text-align: center; }
-
-.navbar li {
-  display: inline;
-  margin: 0 1.6em; }
-
-.nav-link {
-  padding: 0; }
-
-div#navbarNavDropdown {
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
-
 /* CARDS */
 .card {
   background-color: transparent;
@@ -10545,8 +10521,7 @@ h3 {
   color: #fff; }
 
 .container a, .container a:hover {
-  color: #fff;
-  text-decoration: underline; }
+  color: #fff; }
 
 .container a:hover {
   color: #ddebef; }
@@ -10602,6 +10577,19 @@ h3 {
 
 figcaption .fab {
   display: none; }
+
+@media screen and (min-width: 769px) {
+  .entry-title {
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto; }
+  .bio img {
+    width: 220px; }
+  .bio h3 {
+    font-size: 2rem;
+    line-height: 5rem; }
+  p.lead {
+    font-size: 1.7rem; } }
 
 /*
 * Use existing Bootstrap 4 classes and

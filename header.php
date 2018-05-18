@@ -50,18 +50,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<nav class="navbar navbar-expand-md">
 
-		
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-
 				<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
+						'container_class' => '',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav',
+						'menu_class'      => 'navbar-nav row',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'walker'          => new understrap_WP_Bootstrap_Navwalker(),
@@ -72,20 +66,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<nav class="navbar navbar-expand-md">
 
-		
-
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-
 					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
 
 					<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'secondary-menu',
-						'container_class' => 'collapse navbar-collapse',
+						'container_class' => '',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav',
+						'menu_class'      => 'navbar-nav row',
 						'fallback_cb'     => '',
 						'menu_id'         => 'second-menu',
 						'walker'          => new understrap_WP_Bootstrap_Navwalker(),
