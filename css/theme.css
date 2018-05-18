@@ -10463,11 +10463,10 @@ a.skip-link {
 
 h3 {
   color: #fff;
-  font-weight: bold;
   border-bottom: 4px solid #20a2ce;
   padding-top: 20px; }
 
-a {
+a, entry-header a:hover {
   text-decoration: none; }
 
 .mb-20 {
@@ -10482,12 +10481,13 @@ a {
   border: 0;
   margin-bottom: 0; }
 
-.entry-title {
+.entry-title, .entry-title a {
   text-align: center;
   width: 100%;
   padding: 15px 0 0;
   margin: 0 auto;
-  color: #fff; }
+  color: #fff;
+  text-decoration: none; }
 
 .bio {
   -webkit-box-align: center;
@@ -10526,6 +10526,9 @@ div#navbarNavDropdown {
       justify-content: space-around; }
 
 .navbar li {
+  margin: 0; }
+
+#main-menu li {
   margin: 0 0.7em; }
 
 /* CARDS */
@@ -10537,7 +10540,6 @@ div#navbarNavDropdown {
   color: #fff; }
 
 .card h3 {
-  font-weight: bold;
   border-bottom: 4px solid #20a2ce; }
 
 .card h4 {
@@ -10547,10 +10549,7 @@ div#navbarNavDropdown {
   text-decoration: none;
   margin-left: 8px; }
 
-.container a, .container a:hover {
-  color: #fff; }
-
-.container a:hover {
+.card-text a, .card-text a:hover {
   color: #ddebef; }
 
 /* PROJECTS */
@@ -10635,6 +10634,43 @@ footer .brand-name {
   font-family: 'Chopin',Helvetica,Arial,sans-serif;
   color: #ffffff;
   padding: 0; }
+
+/* BLOG */
+.navbar-brand {
+  width: 100%; }
+
+.post header.entry-header {
+  text-align: left; }
+
+.post .entry-title {
+  padding: 0;
+  width: 100%;
+  text-align: left; }
+
+.post .posted-on a {
+  font-size: 1.5rem;
+  color: #fff; }
+
+#index-wrapper .posted-on {
+  display: none; }
+
+#index-wrapper .entry-content {
+  margin: 0 0 20px; }
+
+.entry-content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0; }
+
+h3.comments-title {
+  font-weight: 500; }
+
+.comment-body a {
+  color: #fff;
+  font-weight: normal; }
+
+.comments-link a {
+  color: #fff; }
 
 @media screen and (min-width: 769px) {
   .entry-title {
