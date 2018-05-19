@@ -25,14 +25,28 @@ endwhile;
 	</div>
   </div>
   <div class="contact col-sm-12 col-md-5">
-	<div class="card">
-	  <div class="card-body">
-		<h3 class="card-title">Get In Touch</h3>
-		<!-- <p class="card-text"><i class="fa fa-pencil"></i>Blog</p> -->
-		<p class="card-text"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:cndragn@gmail.com">cndragn@gmail.com</a></p>
-		<p class="card-text"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:305-432-4789">305-432-4789</a></p>
-	  </div>
-	</div>
+		<div class="card">
+			<div class="card-body">
+			<h3 class="card-title">Get In Touch</h3>
+			<!-- <p class="card-text"><i class="fa fa-pencil"></i>Blog</p> -->
+			<p class="card-text"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:cndragn@gmail.com">cndragn@gmail.com</a></p>
+			<p class="card-text"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:305-432-4789">305-432-4789</a></p>
+			</div>
+		</div>
+		<div class="card recent">
+		<div class="card-body">
+			<h3 class="card-title">Recent Posts</h3>
+				<ul>
+					<?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
+					<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+					<li><?php echo get_the_date(); ?>: <a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+					<?php 
+					endwhile;
+					wp_reset_postdata();
+					?>
+				</ul>
+			</div>
+		</div>
   </div>
 </div>
 

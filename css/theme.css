@@ -10469,6 +10469,10 @@ h3 {
 a, entry-header a:hover {
   text-decoration: none; }
 
+li, ul {
+  list-style-type: none;
+  padding: 0; }
+
 .mb-20 {
   margin-bottom: 20px; }
 
@@ -10536,9 +10540,6 @@ div#navbarNavDropdown {
   background-color: transparent;
   border: 0; }
 
-.card h3, p.card-text {
-  color: #fff; }
-
 .card h3 {
   border-bottom: 4px solid #20a2ce; }
 
@@ -10552,6 +10553,13 @@ div#navbarNavDropdown {
 
 .card-text a, .card-text a:hover {
   color: #ddebef; }
+
+/* RECENT POSTS */
+.recent a {
+  color: #fff; }
+
+.recent a:hover {
+  color: #d9d9d9; }
 
 /* PROJECTS */
 .projects {
