@@ -10646,7 +10646,8 @@ footer .brand-name {
 .post .entry-title {
   padding: 0;
   width: 100%;
-  text-align: left; }
+  text-align: left;
+  font-size: 2rem; }
 
 .entry-meta {
   border-bottom: 4px solid #20a2ce;
