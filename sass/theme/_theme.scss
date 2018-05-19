@@ -79,7 +79,7 @@ div#navbarNavDropdown {
   background-color: transparent;
   border: 0;
 }
-.card h3, .card h4, p.card-text {
+.card h3, p.card-text {
   color: #fff;
 }
 .card h3 {
@@ -87,6 +87,7 @@ div#navbarNavDropdown {
 }
 .card h4 {
   font-size: 1.45rem;
+  color: #043b4e;
 }
 .card-body a {
   text-decoration: none;
@@ -204,8 +205,14 @@ footer .brand-name {
     padding: 0;
     width: 100%;
     text-align: left;
+    font-size: 2rem;
 }
-.post .posted-on a {
+
+.entry-meta {
+  border-bottom: 4px solid #20a2ce;
+  margin-bottom: 10px;
+}
+.post .posted-on {
   font-size: 1.5rem;
   color: #fff;
 }
@@ -236,6 +243,9 @@ h3.comments-title {
   color: #fff;
 }
 
+time.updated {
+  display: none;
+}
 
 
 @media screen and (min-width: 769px){
