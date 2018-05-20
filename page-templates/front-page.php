@@ -18,9 +18,9 @@ endwhile;
 	<div class="card">
 	  <div class="card-body">
 		<h3 class="card-title">Skills</h3>
-		<h4>Languages / Markup:</h4><p class="card-text">Ruby, Javascript, HTML, CSS, Sass</p>
-		<h4>Technologies:</h4><p class="card-text">Ruby on Rails, React.js, jQuery, API</p>
-		<h4>Project Management:</h4><p class="card-text">Git, Agile, TDD, Pair Programming, MVP</p>
+		<h4>Front End:</h4><p class="card-text">HTML, CSS, Sass, JavaScript, ReactJS, jQuery, Bootstrap</p>
+		<h4>Back End:</h4><p class="card-text">Ruby, Rails, RESTful API</p>
+		<h4>Project Management:</h4><p class="card-text">Git, Agile, TDD, Pair Programming</p>
 	  </div>
 	</div>
   </div>
