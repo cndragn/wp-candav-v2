@@ -42,7 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				<div class="col-sm-12 col-md-8 text-sm-center text-md-left">
 				<h3>Hello, My name is Candice!</h3>
-				<p class="lead">I am a Front End Developer, based in Miami, FL, who is devoted to combining the art of design with functional programming.</p>
+				<p class="lead">I am a Front End Developer, based in Miami, FL, who is devoted to combining the art of design with the art of programming.</p>
 				</div>
 			</div>
 			</div>
