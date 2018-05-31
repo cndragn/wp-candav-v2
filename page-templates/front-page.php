@@ -56,17 +56,19 @@ endwhile;
   </div>
 
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
-	<img src="http://www.candicedavidson.com/images/ideaboard.png" alt="">
+	<a href="http://ideaboard-react.surge.sh/" target="_blank"><img src="http://www.candicedavidson.com/images/ideaboard.png" alt=""></a>
 	<figcaption>
-	  <h4>React | Ruby on Rails | API | Bootstrap</h4>
-	</figcaption><a href="https://github.com/cndragn/ideaboard-react" target="_blank"></a>
+		<h4>React | Ruby on Rails | API | Bootstrap</h4>
+		<a href="http://ideaboard-react.surge.sh/" target="_blank">Demo</a> | <a href="https://github.com/cndragn/ideaboard-react" target="_blank">Github</a>
+	</figcaption>
   </div>
 
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
-	<img src="http://www.candicedavidson.com/images/memori.png" alt="">
+	<a href="https://memori-wyn.herokuapp.com/" target="_blank"><img src="http://www.candicedavidson.com/images/memori.png" alt=""></a>
 	<figcaption>
-	  <h4>Ruby on Rails | API | OmniAuth | Materialize</h4>
-	</figcaption><a href="https://github.com/cndragn/memori-app" target="_blank"></a>
+		<h4>Ruby on Rails | API | OmniAuth | Materialize</h4>
+		<a href="https://memori-wyn.herokuapp.com/" target="_blank">Demo</a> | <a href="https://github.com/cndragn/memori-app" target="_blank">Github</a>
+	</figcaption>
   </div>
 
   <!-- <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
@@ -77,31 +79,35 @@ endwhile;
   </div> -->
 
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
-	<img src="http://www.candicedavidson.com/images/calculator.png">
+	<a href="http://candicedavidson.com/portfolio/calculator/" target="_blank"><img src="http://www.candicedavidson.com/images/calculator.png"></a>
 	<figcaption>
-	  <h4>JavaScript | jQuery | HTML/CSS | Bootstrap</h4>
-	</figcaption><a href="https://github.com/cndragn/javascript-calculator" target="_blank"></a>
+		<h4>JavaScript | jQuery | HTML/CSS | Bootstrap</h4>
+		<a href="http://candicedavidson.com/portfolio/calculator/" target="_blank">Demo</a> | <a href="https://github.com/cndragn/javascript-calculator" target="_blank">Github</a>
+	</figcaption>
   </div>
 
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
-	<img src="http://www.candicedavidson.com/images/Unsolicited_Advice_Generator_w_API.png" alt="">
+	<a href="http://candicedavidson.com/portfolio/advicegen/" target="_blank"><img src="http://www.candicedavidson.com/images/Unsolicited_Advice_Generator_w_API.png" alt=""></a>
 	<figcaption>
-	  <h4>API | JavaScript | jQuery | HTML/CSS </h4>
-	</figcaption><a href="https://github.com/cndragn/advice-generator" target="_blank"></a>
+		<h4>API | JavaScript | jQuery | HTML/CSS </h4>
+		<a href="http://candicedavidson.com/portfolio/advicegen/" target="_blank">Demo</a> | <a href="https://github.com/cndragn/advice-generator" target="_blank">Github</a>
+	</figcaption>
   </div>
 
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
-	<img src="http://www.candicedavidson.com/images/pomodoro.png" alt="">
+	<a href="http://candicedavidson.com/portfolio/pomodoro/" target="_blank"><img src="http://www.candicedavidson.com/images/pomodoro.png" alt=""></a>
 	<figcaption>
-	  <h4>JavaScript | jQuery | HTML/CSS | Bootstrap</h4>
-	</figcaption><a href="https://github.com/cndragn/pomodoro" target="_blank"></a>
+		<h4>JavaScript | jQuery | HTML/CSS | Bootstrap</h4>
+		<a href="http://candicedavidson.com/portfolio/pomodoro/" target="_blank">Demo</a> | <a href="https://github.com/cndragn/pomodoro" target="_blank">Github</a>
+	</figcaption>
   </div>
 
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
-	<img src="http://www.candicedavidson.com/images/simon.png" alt="">
+	<a href="http://candicedavidson.com/portfolio/simon-game/" target="_blank"><img src="http://www.candicedavidson.com/images/simon.png" alt=""></a>
 	<figcaption>
-	  <h4>JavaScript | jQuery | HTML/CSS | Bootstrap</h4>
-	</figcaption><a href="https://github.com/cndragn/simon-game" target="_blank"></a>
+		<h4>JavaScript | jQuery | HTML/CSS | Bootstrap</h4>
+		<a href="http://candicedavidson.com/portfolio/simon-game/" target="_blank">Demo</a> | <a href="https://github.com/cndragn/simon-game" target="_blank">Github</a>
+	</figcaption>
   </div>
 
   <!-- <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">

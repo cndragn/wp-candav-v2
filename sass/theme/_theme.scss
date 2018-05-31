@@ -153,28 +153,24 @@ div#navbarNavDropdown {
   vertical-align: top;
 }
 
-.pg h2,
 .pg h4 {
   margin: 0;
   font-weight: 600;
   font-size: 0.9rem;
+  color: #212529;
 }
 
 .pg a {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: 1;
+  margin: 0;
+  font-weight: 600;
+  font-size: .9rem;
+  color: $white;
 }
 
-figcaption .fab {
-  display: none;
+.pg a:hover {
+  color: darken($white, 15%);
+  text-decoration: none;
 }
-
-
-
 
 //   .projects {
 //     padding-top: 1.25rem;

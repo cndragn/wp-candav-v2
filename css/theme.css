@@ -10596,22 +10596,21 @@ div#navbarNavDropdown {
   max-width: 100%;
   vertical-align: top; }
 
-.pg h2,
 .pg h4 {
   margin: 0;
   font-weight: 600;
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  color: #212529; }
 
 .pg a {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: 1; }
+  margin: 0;
+  font-weight: 600;
+  font-size: .9rem;
+  color: #fff; }
 
-figcaption .fab {
-  display: none; }
+.pg a:hover {
+  color: #d9d9d9;
+  text-decoration: none; }
 
 /* FOOTER */
 #wrapper-footer {
