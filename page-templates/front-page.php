@@ -58,8 +58,6 @@ endwhile;
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
 	<img src="http://www.candicedavidson.com/images/ideaboard.png" alt="">
 	<figcaption>
-	  <i class="fab fa-github"></i>
-	  <!-- <h4>Idea Board</h4> -->
 	  <h4>React | Ruby on Rails | API | Bootstrap</h4>
 	</figcaption><a href="https://github.com/cndragn/ideaboard-react" target="_blank"></a>
   </div>
@@ -67,8 +65,6 @@ endwhile;
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
 	<img src="http://www.candicedavidson.com/images/memori.png" alt="">
 	<figcaption>
-	  <i class="fab fa-github"></i>
-	  <!-- <h4>Memori</h4> -->
 	  <h4>Ruby on Rails | API | OmniAuth | Materialize</h4>
 	</figcaption><a href="https://github.com/cndragn/memori-app" target="_blank"></a>
   </div>
@@ -76,8 +72,6 @@ endwhile;
   <!-- <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
 	<img src="http://www.candicedavidson.com/images/fotoscape.png" alt="">
 	<figcaption>
-	  <i class="fab fa-github"></i>
-	  <h4>FOTOSCAPE</h4>
 	  <h4>Ruby on Rails | API | Materialize | Devise</h4>
 	</figcaption><a href="https://github.com/cndragn/fotoscape" target="_blank"></a>
   </div> -->
@@ -85,16 +79,13 @@ endwhile;
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
 	<img src="http://www.candicedavidson.com/images/calculator.png">
 	<figcaption>
-	  <i class="fab fa-github"></i>
-	  <!-- <h4>JS Calculator</h4> -->
 	  <h4>JavaScript | jQuery | HTML/CSS | Bootstrap</h4>
 	</figcaption><a href="https://github.com/cndragn/javascript-calculator" target="_blank"></a>
   </div>
+
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
 	<img src="http://www.candicedavidson.com/images/Unsolicited_Advice_Generator_w_API.png" alt="">
 	<figcaption>
-	  <i class="fab fa-github"></i>
-	  <!-- <h4>Unsolicited Advice Generator</h4> -->
 	  <h4>API | JavaScript | jQuery | HTML/CSS </h4>
 	</figcaption><a href="https://github.com/cndragn/advice-generator" target="_blank"></a>
   </div>
@@ -102,16 +93,13 @@ endwhile;
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
 	<img src="http://www.candicedavidson.com/images/pomodoro.png" alt="">
 	<figcaption>
-	  <i class="fab fa-github"></i>
-	  <!-- <h4>Pomodoro Clock</h4> -->
 	  <h4>JavaScript | jQuery | HTML/CSS | Bootstrap</h4>
 	</figcaption><a href="https://github.com/cndragn/pomodoro" target="_blank"></a>
   </div>
+
   <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
 	<img src="http://www.candicedavidson.com/images/simon.png" alt="">
 	<figcaption>
-	  <i class="fab fa-github"></i>
-	  <!-- <h4>Simon Game</h4> -->
 	  <h4>JavaScript | jQuery | HTML/CSS | Bootstrap</h4>
 	</figcaption><a href="https://github.com/cndragn/simon-game" target="_blank"></a>
   </div>
@@ -119,15 +107,13 @@ endwhile;
   <!-- <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
 	<img src="http://www.candicedavidson.com/images/twitch.png" alt="">
 	<figcaption>
-	  <i class="fab fa-github"></i>
-	  <h4>Twitch TV API</h4>
 	  <h4>JavaScript | jQuery | JSON API | HTML/CSS</h4>
 	</figcaption><a href="https://github.com/cndragn/twitch-tv" target="_blank"></a>
   </div> -->
+
   <!-- <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
 	<img src="http://www.candicedavidson.com/images/movie-trailers.png" alt="">
 	<figcaption>
-	  <h4>Movie Trailer DB</h4>
 	  <h4>Python | HTML/CSS | Bootstrap</h4>
 	</figcaption><a href="https://github.com/cndragn/studies/tree/master/udacity-python/movie" target="_blank"></a>
   </div> -->
