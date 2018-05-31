@@ -12,7 +12,7 @@ while ( have_posts() ) : the_post();
 endwhile;
 ?>
 
-<div class="container">
+<div class="container main">
 <div class="row">
   <div class="skills col-sm-12 col-md-7">
 	<div class="card">
