@@ -10586,11 +10586,15 @@ div#navbarNavDropdown {
   -webkit-perspective: 50em;
   perspective: 50em; }
 
-.pg * {
-  -webkit-box-sizing: padding-box;
-  box-sizing: padding-box;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out; }
+.pg img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+.pg img:hover {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03); }
 
 .pg img {
   max-width: 100%;
